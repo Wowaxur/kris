@@ -23,13 +23,13 @@ class App extends React.Component {
                 <div className={'ContainerBlock'}>
                     <div className={'WhatsappWrapper'}>
                 <div className={'BlockContact'}>
-                    <a target={"_blank"} href={'https://wa.me/79180892823'} className={"WhatsApp"}>
+                    <a target={"_blank"} href={'https://wa.me/79180303845'} className={"WhatsApp"}>
                         <WhatsAppIcon className="icon" />
                         <div>Рабочий</div>
                     </a>
                 </div>
                     <div className={'BlockContact'}>
-                        <a target={"_blank"} href={'https://wa.me/79180892823'} className={"WhatsApp"}>
+                        <a target={"_blank"} href={'https://wa.me/79180892824'} className={"WhatsApp"}>
                             <WhatsAppIcon className="icon" />
                             <div>Личный</div>
                         </a>
