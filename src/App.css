@@ -1,8 +1,5 @@
 .main {
-  text-align: center;
-  margin: 0 auto;
-  height: calc(100vh - 60px);
-  padding: 10px 0;
+
 }
 .Name{
   box-sizing: border-box;
