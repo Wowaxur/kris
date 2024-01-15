@@ -1,13 +1,12 @@
 .main {
   text-align: center;
   margin: 0 auto;
-  background-image: url("./components/images/Group_1861.webp");
-  height: 975px;
+  height: 100vh;
   background-color: rgb(134, 142, 150);
   background-position-x: 50%;
   background-position-y: 0%;
-  background-repeat: no-repeat;
   background-size: cover;
+  padding: 10px 0;
 }
 .Name{
   box-sizing: border-box;
@@ -22,7 +21,6 @@
   text-align: center;
   text-rendering: optimizelegibility;
   text-transform: uppercase;
-  width: auto;
   -webkit-font-smoothing: antialiased;
 }
 .ContainerBlock{
@@ -77,8 +75,15 @@ a{
   width: 150px;
   color: white;
 }
-/*.Instagram{*/
-/*  color: #a40ba4;*/
-/*}*/
-/*.Telegram { color: #087ac9*/
-/*}*/
+.SvoiLogo{
+  width: 120px;
+}
+.WhatsappWrapper{
+  display: flex;
+  gap: 10px;
+
+
+}
+.WhatsappWrapper .BlockContact{
+  min-width: 90px;
+}
