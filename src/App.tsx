@@ -29,7 +29,7 @@ class App extends React.Component {
                     </a>
                 </div>
                     <div className={'BlockContact'}>
-                        <a target={"_blank"} href={'https://wa.me/79180892824'} className={"WhatsApp"}>
+                        <a target={"_blank"} href={'https://wa.me/79180892823'} className={"WhatsApp"}>
                             <WhatsAppIcon className="icon" />
                             <div>Личный</div>
                         </a>
