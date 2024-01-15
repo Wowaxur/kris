@@ -3,7 +3,7 @@ import s from './BlockItem.module.css'
 
 function BlockItem() {
     return (
-        <div className="block-item block-break b-e40650e3fd774f5cac7a50e52ff92f2e">
+        <div className={s.arrowWrapper}>
             <div className={s.blockBreak}>
             <span className={s.span}>
               <svg className={s.svgArrow}

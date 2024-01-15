@@ -36,3 +36,6 @@
     fill: rgb(14, 20, 24);
     position: relative;
 }
+.arrowWrapper{
+    margin-top: -15px;
+}
