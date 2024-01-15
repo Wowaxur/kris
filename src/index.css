@@ -5,11 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(134, 142, 150);
-
+  background: rgb(240,240,240);
+  background: linear-gradient(180deg, rgba(240,240,240,1) 0%, rgba(254,252,252,1) 67%, rgba(247,247,247,1) 100%);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.footer{
+  text-align: center;
+  color: rgb(114, 113, 113);
 }

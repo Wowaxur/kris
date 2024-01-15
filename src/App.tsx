@@ -12,7 +12,7 @@ class App extends React.Component {
         return (
             <div className="main">
             <div className={'Image'}>
-            <img className={'MainImage'} src={MainImg}/>     </div>
+            <img className={'MainImage'} src={MainImg}/> </div>
                 <div className={"Name"}>
                     <h3>Кристина Дончевская</h3>
                     <h5>Руководитель партнерского направления

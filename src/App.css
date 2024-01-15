@@ -2,13 +2,11 @@
   text-align: center;
   margin: 0 auto;
   height: calc(100vh - 60px);
-  background-color: rgb(134, 142, 150);
-  background-size: cover;
   padding: 10px 0;
 }
 .Name{
   box-sizing: border-box;
-  color: rgb(145, 187, 229);
+  color: rgb(114, 113, 113);
   display: inline;
   font-family: Oswald, sans-serif;
   font-size: 24px;
