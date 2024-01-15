@@ -11,8 +11,7 @@ root.render(
   <React.StrictMode>
     <App />
       <h5 className={'footer'}>Агентство недвижимости «Свои на юге»
-      </h5>
-  </React.StrictMode>
+      </h5>  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -69,11 +69,13 @@ a{
   color: white;
 }
 .SvoiLogo{
-  width: 100px;
+  width: 120px;
 }
 .WhatsappWrapper{
   display: flex;
   gap: 10px;
+
+
 }
 .WhatsappWrapper .BlockContact{
   min-width: 90px;
