@@ -12,7 +12,7 @@ class App extends React.Component {
         return (
             <div className="main">
             <div className={'Image'}>
-            <img className={'MainImage'} src={MainImg}/> </div>
+            <img className={'MainImage'} src={MainImg} alt={''}/> </div>
                 <div className={"Name"}>
                     <h3 className={'NamePerson'}>Кристина Дончевская</h3>
                     <p>Руководитель партнерского отдела   </p>
@@ -23,13 +23,13 @@ class App extends React.Component {
                 <div className={'ContainerBlock'}>
                     <div className={'WhatsappWrapper'}>
                 <div className={'BlockContact'}>
-                    <a target={"_blank"} href={'https://wa.me/79180303845'} className={"WhatsApp"}>
+                    <a rel={"noreferrer"} target={"_blank"} href={'https://wa.me/79180303845'} className={"WhatsApp"}>
                         <WhatsAppIcon className="iconWhatsApp" />
                         <div>Рабочий</div>
                     </a>
                 </div>
                     <div className={'BlockContact'}>
-                        <a target={"_blank"} href={'https://wa.me/79180892823'} className={"WhatsApp"}>
+                        <a rel={"noreferrer"} target={"_blank"} href={'https://wa.me/79180892823'} className={"WhatsApp"}>
                             <WhatsAppIcon
                                 className="iconWhatsApp" />
                             <div>Личный</div>
@@ -37,20 +37,20 @@ class App extends React.Component {
                     </div>
                     </div>
                     <div className={'BlockContact'}>
-                    <a  href={'https://t.me/+4YItH4K3uuk5NTk6'} target={"_blank"} className={"Telegram"}>
+                    <a rel={"noreferrer"}  href={'https://t.me/+4YItH4K3uuk5NTk6'} target={"_blank"} className={"Telegram"}>
                         <TelegramIcon className={'iconTg'}/>
                         Telegram</a>
                 </div>
                     <div className={'BlockContact'}>
-                    <a href={'https://www.instagram.com/svoi.live/'} target={"_blank"} className={"Instagram"}>
+                    <a rel={"noreferrer"} href={'https://www.instagram.com/svoi.live/'} target={"_blank"} className={"Instagram"}>
                         <InstagramIcon className={'iconInst'}/>
                         Instagram</a>
                 </div>
                     <div className={'BlockContact'}>
-                    <a href={'https://vk.com/svoi.live'} className={"Link"} target={"_blank"}> <img src={VkLogo} className={'vkLogo'}/> </a>
+                    <a rel={"noreferrer"} href={'https://vk.com/svoi.live'} className={"Link"} target={"_blank"}> <img src={VkLogo} alt={''} className={'vkLogo'}/> </a>
                 </div>
                     <div className={'BlockContact'}>
-                        <a href={'https://svoi.live'} className={"Link"} target={"_blank"}> <img className={'SvoiLogo'} src={SvoiLoogo} />
+                        <a rel={"noreferrer"} href={'https://svoi.live'} className={"Link"} target={"_blank"}> <img className={'SvoiLogo'} alt={''} src={SvoiLoogo} />
                       </a>
                     </div>
 
