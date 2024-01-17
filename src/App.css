@@ -3,18 +3,26 @@
 }
 .Name{
   box-sizing: border-box;
-  color: rgb(114, 113, 113);
   display: inline;
-  font-family: Oswald, sans-serif;
-  font-size: 24px;
-  font-weight: 700;
   height: auto;
   letter-spacing: normal;
   line-height: 34px;
   text-align: center;
-  text-rendering: optimizelegibility;
-  text-transform: uppercase;
   -webkit-font-smoothing: antialiased;
+}
+.NamePerson{
+  text-transform: uppercase;
+  font-family: Georgia, serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(65, 64, 64);
+}
+.Name p{
+  font-family: Georgia, serif;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgb(65, 64, 64);
+
 }
 .ContainerBlock{
   justify-content: center;
@@ -49,9 +57,18 @@
   width: 125px;
   border-radius: 50%;
 }
-.icon {
+.iconInst {
   margin-right: 10px;
-
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  border-radius: 5px;
+}
+.iconTg {
+  margin-right: 10px;
+  color: dodgerblue;
+}
+.iconWhatsApp {
+  margin-right: 10px;
+  color: #25D366;
 }
 a{
   display: flex;

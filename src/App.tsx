@@ -14,35 +14,35 @@ class App extends React.Component {
             <div className={'Image'}>
             <img className={'MainImage'} src={MainImg}/> </div>
                 <div className={"Name"}>
-                    <h3>Кристина Дончевская</h3>
-                    <h5 className={'NameHeader'}>Руководитель партнерского направления
-                        Г. Краснодар
-                    </h5>
+                    <h3 className={'NamePerson'}>Кристина Дончевская</h3>
+                    <p>Руководитель партнерского отдела   </p>
+                    <p>АН «Свои на юге»</p>
+                    <p> г. Краснодар</p>
                 </div>
                 <BlockItem/>
                 <div className={'ContainerBlock'}>
                     <div className={'WhatsappWrapper'}>
                 <div className={'BlockContact'}>
                     <a target={"_blank"} href={'https://wa.me/79180303845'} className={"WhatsApp"}>
-                        <WhatsAppIcon className="icon" />
+                        <WhatsAppIcon className="iconWhatsApp" />
                         <div>Рабочий</div>
                     </a>
                 </div>
                     <div className={'BlockContact'}>
                         <a target={"_blank"} href={'https://wa.me/79180892823'} className={"WhatsApp"}>
-                            <WhatsAppIcon className="icon" />
+                            <WhatsAppIcon className="iconWhatsApp" />
                             <div>Личный</div>
                         </a>
                     </div>
                     </div>
                     <div className={'BlockContact'}>
                     <a  href={'https://t.me/+4YItH4K3uuk5NTk6'} target={"_blank"} className={"Telegram"}>
-                        <TelegramIcon className={'icon'}/>
+                        <TelegramIcon className={'iconTg'}/>
                         Telegram</a>
                 </div>
                     <div className={'BlockContact'}>
                     <a href={'https://www.instagram.com/svoi.live/'} target={"_blank"} className={"Instagram"}>
-                        <InstagramIcon className={'icon'}/>
+                        <InstagramIcon className={'iconInst'}/>
                         Instagram</a>
                 </div>
                     <div className={'BlockContact'}>
