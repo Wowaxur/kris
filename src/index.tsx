@@ -10,8 +10,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <App />
-      <h5 className={'footer'}>Агентство недвижимости «Свои на юге»
-      </h5>  </React.StrictMode>
+       </React.StrictMode>
 );
 
 reportWebVitals();

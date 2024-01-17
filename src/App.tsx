@@ -30,7 +30,8 @@ class App extends React.Component {
                 </div>
                     <div className={'BlockContact'}>
                         <a target={"_blank"} href={'https://wa.me/79180892823'} className={"WhatsApp"}>
-                            <WhatsAppIcon className="iconWhatsApp" />
+                            <WhatsAppIcon
+                                className="iconWhatsApp" />
                             <div>Личный</div>
                         </a>
                     </div>
@@ -54,7 +55,8 @@ class App extends React.Component {
                     </div>
 
                 </div>
-
+                <footer className={'footer'}>Агентство недвижимости «Свои на юге»
+                </footer>
             </div>
         );
     }
