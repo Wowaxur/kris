@@ -55,8 +55,7 @@ class App extends React.Component {
                     </div>
 
                 </div>
-                <footer className={'footer'}>Агентство недвижимости «Свои на юге»
-                </footer>
+
             </div>
         );
     }
