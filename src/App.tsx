@@ -51,7 +51,8 @@ class App extends React.Component {
                     <a rel={"noreferrer"} href={'https://vk.com/svoi.live'} className={"Link"} target={"_blank"}> <img src={VkLogo} alt={''} className={'vkLogo'}/> </a>
                 </div>
                     <div className={'BlockContact'}>
-                        <a rel={"noreferrer"} href={'https://svoi.live'} className={"Link"} target={"_blank"}> <img className={'SvoiLogo'} alt={''} src={SvoiLoogo} />
+                        <a rel={"noreferrer"} href={'https://svoi.live'} className={"Link"} target={"_blank"}>
+                            <img className={'SvoiLogo'} alt={''} src={SvoiLoogo} />
                       </a>
                     </div>
 
