@@ -10,7 +10,8 @@ import VkLogo from './components/images/vk.svg'
 class App extends React.Component {
     render() {
         return (
-            <div className="main">
+            <div>
+            <main className="main">
             <div className={'Image'}>
             <img className={'MainImage'} src={MainImg} alt={''}/> </div>
                 <div className={"Name"}>
@@ -55,6 +56,9 @@ class App extends React.Component {
                     </div>
 
                 </div>
+
+            </main>
+                <footer className='footer'>Агентство недвижимости «Свои на юге»</footer>
 
             </div>
         );
